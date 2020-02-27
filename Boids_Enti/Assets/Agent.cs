@@ -8,7 +8,10 @@ public class Agent : MonoBehaviour
 
     public Vector3 separationForce, cohesionForce, alignmentForce;
     [SerializeField]
-    float radius = 1.0f;
+    float radius = 2.0f;
+
+    [SerializeField]
+    public Vector3 vel = Vector3.zero;
 
     public List<Agent> neightbours;
 

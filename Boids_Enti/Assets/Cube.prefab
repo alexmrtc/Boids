@@ -108,5 +108,5 @@ MonoBehaviour:
   separationForce: {x: 0, y: 0, z: 0}
   cohesionForce: {x: 0, y: 0, z: 0}
   alignmentForce: {x: 0, y: 0, z: 0}
-  radius: 1
+  radius: 2
   neightbours: []
